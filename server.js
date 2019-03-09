@@ -235,7 +235,7 @@ io.on('connection', (socket) => {
 
 });
 
-server.listen(4000,() => {
+server.listen(process.env.PORT,() => {
     console.log('Node app is running on port 3000');
 });
 
