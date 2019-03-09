@@ -1,13 +1,15 @@
 const path = require('path');
 const express = require('express'),
-    http = require('http'),
-    app = express(),
-    server = http.createServer(app),
-    io = require('socket.io').listen(server);
+      app = express();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
 const updateFile = require('./update');
 
+app.set('port', (process.env.PORT || 5000));
 
 const publicPath = path.join(__dirname, '..', 'public');
+
+app.set('view engine', 'ejs');
 
 app.use(express.static(publicPath));
 
@@ -235,7 +237,7 @@ io.on('connection', (socket) => {
 
 });
 
-server.listen( 3000,() => {
+http.listen( app.get('port'),() => {
     console.log('Node app is running on port 3000');
 });
 
