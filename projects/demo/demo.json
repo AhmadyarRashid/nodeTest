@@ -1,0 +1,126 @@
+{
+  "devices": [
+    {
+      "id": "atoswitch1",
+      "status": "OFF",
+      "configuration": "no",
+      "label": "atoswitch",
+      "category": "ALL",
+      "image": "0",
+      "schedular": "off",
+      "type": "atoswitch",
+      "watt": "0.00",
+      "schedular_on": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      },
+      "schedular_off": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      }
+    },
+    {
+      "id": "atosocket1",
+      "status": "OFF",
+      "configuration": "no",
+      "label": "atosocket",
+      "category": "ALL",
+      "image": "1",
+      "schedular": "off",
+      "type": "atosocket",
+      "watt": "0.00",
+      "schedular_on": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      },
+      "schedular_off": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      }
+    },
+    {
+      "id": "atodimmer1",
+      "status": "0",
+      "configuration": "no",
+      "label": "atodimmer",
+      "category": "ALL",
+      "image": "2",
+      "schedular": "off",
+      "type": "atodimmer",
+      "watt": "0.00",
+      "schedular_on": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      },
+      "schedular_off": {
+        "Mon": "false",
+        "Tue": "false",
+        "Wed": "false",
+        "Thu": "false",
+        "Fri": "false",
+        "Sat": "false",
+        "Sun": "false",
+        "shour": "0",
+        "smin": "0",
+        "sch_status": "false"
+      }
+    }
+  ],
+  "category": [
+    "ALL"
+  ],
+  "userInfo": {
+    "name": "demo",
+    "mobile": "0300",
+    "address": "islamabad",
+    "project": "demo",
+    "no of switch": 1,
+    "no of socket": 1,
+    "no of dimmer": 1,
+    "email": "demo@gmail.com",
+    "password": "123456"
+  },
+  "uniqueId": [
+    "ashbcus5412"
+  ]
+}

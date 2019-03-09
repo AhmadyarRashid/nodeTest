@@ -1,0 +1,201 @@
+{
+    "devices": [
+        {
+            "id": "atoswitch1",
+            "status": "OFF",
+            "configuration": "yes",
+            "label": "CEO TABLE",
+            "category": "ALL",
+            "image": "3",
+            "schedular": "off",
+            "type": "atoswitch",
+            "watt": "0.00",
+            "schedular_on": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "true",
+                "Thu": "false",
+                "Fri": "false",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "13",
+                "smin": "14",
+                "sch_status": "false"
+            },
+            "schedular_off": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "true",
+                "Thu": "false",
+                "Fri": "false",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "13",
+                "smin": "13",
+                "sch_status": "false"
+            }
+        },
+        {
+            "id": "atoswitch2",
+            "status": "ON",
+            "configuration": "yes",
+            "label": "GM TABLE",
+            "category": "ALL",
+            "image": "3",
+            "schedular": "off",
+            "type": "atoswitch",
+            "watt": "90.23",
+            "schedular_on": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "21",
+                "smin": "25",
+                "sch_status": "false"
+            },
+            "schedular_off": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "16",
+                "smin": "41",
+                "sch_status": "false"
+            }
+        },
+        {
+            "id": "atoswitch3",
+            "status": "ON",
+            "configuration": "yes",
+            "label": "DESIGN TABLE",
+            "category": "ALL",
+            "image": "3",
+            "schedular": "off",
+            "type": "atoswitch",
+            "watt": "97.74",
+            "schedular_on": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "16",
+                "smin": "46",
+                "sch_status": "false"
+            },
+            "schedular_off": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "16",
+                "smin": "45",
+                "sch_status": "false"
+            }
+        },
+        {
+            "id": "atoswitch4",
+            "status": "ON",
+            "configuration": "yes",
+            "label": "RND TABLE",
+            "category": "ALL",
+            "image": "8",
+            "schedular": "off",
+            "type": "atoswitch",
+            "watt": "117.79",
+            "schedular_on": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "16",
+                "smin": "47",
+                "sch_status": "false"
+            },
+            "schedular_off": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "true",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "16",
+                "smin": "46",
+                "sch_status": "false"
+            }
+        },
+        {
+            "id": "atodimmer1",
+            "status": "0",
+            "configuration": "yes",
+            "label": "Door Light",
+            "category": "ALL",
+            "image": "17",
+            "schedular": "off",
+            "type": "atodimmer",
+            "watt": "0.00",
+            "schedular_on": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "false",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "0",
+                "smin": "0",
+                "sch_status": "false"
+            },
+            "schedular_off": {
+                "Mon": "false",
+                "Tue": "false",
+                "Wed": "false",
+                "Thu": "false",
+                "Fri": "false",
+                "Sat": "false",
+                "Sun": "false",
+                "shour": "0",
+                "smin": "0",
+                "sch_status": "false"
+            }
+        }
+    ],
+    "category": [
+        "ALL"
+    ],
+    "userInfo": {
+        "name": "ato",
+        "mobile": "0300",
+        "address": "i-9 islamabad,pakistan",
+        "project": "office",
+        "no of switch": 1,
+        "no of socket": 0,
+        "no of dimmer": 0,
+        "email": "ato@gmail.com",
+        "password": "123456"
+    },
+    "uniqueId": [
+        "ashbcus5412",
+        "bb58e390bf8c82a6",
+        "948090136c72a8e0",
+        "db765f90e41acf5b",
+        "ce8eb72500cfd5fc",
+        "dc42d30a81bbfc31"
+    ]
+}
