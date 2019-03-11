@@ -3,7 +3,7 @@
     {
       "id": "atoswitch1",
       "status": "OFF",
-      "configuration": "no",
+      "configuration": "yes",
       "label": "atoswitch",
       "category": "ALL",
       "image": "0",
@@ -38,7 +38,7 @@
     {
       "id": "atosocket1",
       "status": "OFF",
-      "configuration": "no",
+      "configuration": "yes",
       "label": "atosocket",
       "category": "ALL",
       "image": "1",
@@ -73,7 +73,7 @@
     {
       "id": "atodimmer1",
       "status": "0",
-      "configuration": "no",
+      "configuration": "yes",
       "label": "atodimmer",
       "category": "ALL",
       "image": "2",
